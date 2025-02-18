@@ -134,17 +134,6 @@ h3{
   min-height: 250px;
 }
 
-.slideshow-container{
-  position: relative;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
-  background: #e8f6ff;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
 .container{
   position: relative;
   max-width: 600px;
@@ -199,42 +188,6 @@ h3{
   color: rgb(175, 0, 0);
   font-size: 2rem;
 }
-
-.slide {
-  display: none;
-  text-align: center;
-}
-
-.slide img {
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.prev, .next {
-  position: absolute;
-  top: 50%;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 10px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  border-radius: 5px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.3)
-}
-
-.prev { 
-  left: 10px; 
-}
-.next { 
-  right: 10px; 
-}
-
 
 @media screen and (max-width: 610px) {
   .topnav .nav-container{
