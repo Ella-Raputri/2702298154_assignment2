@@ -10,6 +10,10 @@ body{
 .top-container{
   background: linear-gradient(to bottom, #003c75, #76b8f5);
   padding: 10px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .header{
@@ -95,6 +99,11 @@ h2{
 
 h3{
   color: #0036a2;
+}
+
+.cards-member{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 .card a{

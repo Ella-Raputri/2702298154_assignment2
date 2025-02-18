@@ -10,6 +10,10 @@
   .top-container{
     background: linear-gradient(to bottom, #003c75, #76b8f5);
     padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
   
   .header{
@@ -100,6 +104,7 @@ h3{
 .img-person {
     max-height:40vh;
     margin: 0 auto;
+    border-radius: 10%;
 }
 
 .desc-container, .rating-container{
