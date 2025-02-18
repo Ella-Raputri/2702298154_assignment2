@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #f2f2f2;
+      font-family: 'Poppins';
+  }
+  
+  .top-container{
+    background: linear-gradient(to bottom, #003c75, #76b8f5);
+    padding: 10px;
+  }
+  
+  .header{
+      text-align: left;
+      line-height: 0.75;
+      padding: 5px;
+      font-family: "Montserrat";
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 1em;
+  }
+    
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+      color: #f2f2f2;
+      background-color: #598ec0;
+  }
+  
+  .topnav .active{
+      color: #ffffff;
+      background-color: #10406dd9;
+  }
+  
+  .content{
+    min-width: 70%;
+  }
+  
+  .footer a:active, .footer a{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+  }
+  
+  .footer a:visited{
+    color:#46a4fc;
+  }
+  
+  .footer a:hover{
+    color:#2069ae;
+  }
+  
+  .footer, .footer a{
+    background-color: #c6ddf3;
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 3em;
+  }
+  
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color:rgb(28, 28, 28)
+}
+
+h3{
+    color: #0036a2;
+    text-align: center;
+
+}
+
+.img-container{
+    padding: 1.5em;
+    text-align: center;
+}
+
+.img-person {
+    max-height:40vh;
+    margin: 0 auto;
+}
+
+.desc-container, .rating-container{
+    padding: 2em;
+    padding-top: 1em;
+}
+
+.rating-container{
+    margin-top: 3em;
+}
+
+.desc-container{
+    background-color: white;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.stars {
+    display: block;
+    font-size: 3em;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.star {
+    color: gray;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.star.active, .star:hover, .star.hovered {
+    color: gold;
+}
+
+.rating-skill {
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.rating-skill h4 {
+    margin: 0;
+}
+  
+  
+@media screen and (max-width: 610px) {
+    .topnav .nav-container{
+        display: block;
+    }
+    .topnav a{
+        display: block;
+        float: left;
+        width: 100%
+    }
+}
+  
