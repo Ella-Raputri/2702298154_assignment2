@@ -189,6 +189,18 @@ h3{
   font-size: 2rem;
 }
 
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 @media screen and (max-width: 610px) {
   .topnav .nav-container{
       display: block;
